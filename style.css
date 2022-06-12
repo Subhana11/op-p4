@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -100,7 +99,8 @@ a:hover {
 }
 
 .d-bloc {
-    color: #f5f5f5
+    color: black;
+    font-weight: bolder;
 }
 
 .d-bloc button:hover {
@@ -650,7 +650,7 @@ label,
 .btn,
 a {
     font-family: "helvetica";
-    font-weight: 600;
+    font-weight: 300;
     color: #000000!important;
 }
 
@@ -675,11 +675,6 @@ a {
     max-width: 520px;
     margin: auto auto auto auto;
 }
-
-p {
-    font-size: 11px;
-}
-
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
@@ -692,7 +687,6 @@ p {
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -766,25 +760,22 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
 .bgc-atomic-tangerine {
-    background-color: #A03203;
+    background-color: #F3976C;
 }
 
 .tc-white {
     color: #000000!important;
+    font-weight: 600;
 }
 
 .btn-atomic-tangerine {
-    background: #A03203;
-    color: #FFFFFF!important;
+    background: #F3976C;
+    color: black!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #A03203!important;
+    background: #F3976C!important;
     color: #FFFFFF!important;
 }
 
@@ -801,7 +792,7 @@ h4 {
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #A03203!important;
+    color: #F3976C!important;
 }
 
 .icon-dark-slate-blue {

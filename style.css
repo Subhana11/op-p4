@@ -1031,3 +1031,45 @@ h4 {
         text-align: center;
     }
 }
+.row_edit2{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_text1{
+    font-size:20px;
+    font-family: 'Roboto'sans-serif;
+    font-weight: 500;
+    max-width: 600px;
+}
+.image_text2{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    font-family:'Helvetica'sans-serif;
+}
+.image_text3{
+    font-size: 22px;
+    font-weight :100px;
+    font-family: Helvetica;
+}
+.row_edit1{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image_text4{
+    font-size: 25px;
+}
+.row_edit3 {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+@media (min-width: 992px){
+.col-md-8 {
+    margin-left: 0;
+}}

@@ -642,7 +642,6 @@ a[data-lightbox]:hover img {
 h1,
 h2,
 h3,
-h4,
 h5,
 h6,
 p,
@@ -704,8 +703,7 @@ h2 {
 }
 
 h3 {
-    font-size: 15px;
-    text-transform: uppercase;
+    font-size: 20px;
     font-weight: 700;
     color: #333333!important;
 }
@@ -1073,3 +1071,7 @@ h4 {
 .col-md-8 {
     margin-left: 0;
 }}
+h4{
+    font-size:15px;
+    font-weight: 700;
+}

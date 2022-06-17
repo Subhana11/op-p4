@@ -56,7 +56,7 @@ a:hover {
     padding: 20px 50px;
 }
 
-.bg-center,
+/*.bg-center,
 .bg-l-edge,
 .bg-r-edge,
 .bg-t-edge,
@@ -70,7 +70,7 @@ a:hover {
     -moz-background-size: auto!important;
     -o-background-size: auto!important;
     background-size: auto!important;
-}
+}diturbing width 100% of backgroung image */ 
 
 .bg-repeat {
     background: repeat;
@@ -799,11 +799,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.webp");
+    background-image: url( "img/agence-la-panthere_edited.webp");
+    background-size: 100vw;
 }
-
 .bg-presentation {
-    background-image: url("img/image-de-presentation.webp");
+    background-image: url("img/image-de-presentation_edited.webp");
 }
 
 @media (max-width: 1024px) {
@@ -1077,4 +1077,7 @@ h4{
 }
 .col-sm-3{
     margin-bottom: 20px;
+}
+.img-responsive{
+    width:100%;
 }

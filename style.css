@@ -253,7 +253,7 @@ a:hover {
 }
 
 .l-bloc .navbar-toggle .icon-bar {
-    color: rgb(255, 255, 255);
+    color: rgba(0, 0, 0, .6);
 }
 
 .d-bloc .panel .btn-wire,
@@ -350,8 +350,8 @@ a:hover {
 }
 
 .navbar-toggle .icon-bar {
-    background-color: rgb(255, 255, 255);
-    width: 0px;
+    background-color: rgba(0, 0, 0, .5);
+    width: 26px;
 }
 
 .nav-invert .navbar .nav {
@@ -841,13 +841,13 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -865,10 +865,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -877,8 +874,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
 }
 
@@ -1040,8 +1036,8 @@ h4 {
     align-items: center;
 }
 .image_text1{
-    font-size:20px;
-    font-family: 'Roboto'sans-serif;
+    font-size:25px;
+    font-family: 'sans-serif';
     font-weight: 500;
     max-width: 600px;
 }
@@ -1049,12 +1045,12 @@ h4 {
     font-size: 20px;
     font-style: italic;
     font-weight: 800;
-    font-family:'Helvetica'sans-serif;
+    font-family:'Helvetica';
     line-height: 10px;
 }
 .image_text3{
     font-size: 22px;
-    font-weight :100px;
+    font-weight :100;
     font-family: Helvetica;
 }
 .row_edit1{
@@ -1065,6 +1061,7 @@ h4 {
 }
 .image_text4{
     font-size: 25px;
+    text-align: center;
 }
 .row_edit3 {
         flex-direction: column;
@@ -1093,4 +1090,11 @@ h4{
 .image-resize-mode{
     width:100px;    
     height:100px;
+}
+@media(max-width:500px){
+    .image_text4{
+        margin-left: 30px;
+        margin-right: 30px;
+        font-size: 20px;
+    }
 }
